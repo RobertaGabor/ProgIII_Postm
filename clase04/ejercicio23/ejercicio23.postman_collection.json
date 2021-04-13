@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "87a8afdb-1ec3-4081-b20f-dba62b79585a",
+		"name": "ejercicio23",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ejercicio23",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "usuario",
+							"value": "nuevo",
+							"type": "text"
+						},
+						{
+							"key": "mail",
+							"value": "nuevif@gmaol.c",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "dfrdf",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/TCL/Downloads/EjcrbVrXgAAbe1Y.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clase04/ejercicio23/registro.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase04",
+						"ejercicio23",
+						"registro.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

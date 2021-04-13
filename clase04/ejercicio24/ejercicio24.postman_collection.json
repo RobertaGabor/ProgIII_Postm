@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "857da60b-191c-4dca-a372-e02b60b7fd13",
+		"name": "ejercicio24",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ejercicio24",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "usuario",
+							"value": "maria",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "mail",
+							"value": "mar@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "imagen",
+							"type": "file",
+							"src": "/C:/Users/TCL/Downloads/unnamed.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clase04/ejercicio24/listado.php?listado=usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase04",
+						"ejercicio24",
+						"listado.php"
+					],
+					"query": [
+						{
+							"key": "listado",
+							"value": "usuarios"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
