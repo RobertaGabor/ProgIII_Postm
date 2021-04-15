@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "2bded41a-fffa-40c3-9ab9-217f9d7980e1",
+		"name": "ejercicio25",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ej25",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "codigo",
+							"value": "123156",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "nombre",
+							"value": "silla",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "decoracion",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clase04/ejercicio25/altaProducto.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase04",
+						"ejercicio25",
+						"altaProducto.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

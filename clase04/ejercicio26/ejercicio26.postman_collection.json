@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "2c9d5df6-355f-40ae-9a0f-6afe4913702d",
+		"name": "ejercicio26",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ej26",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id_user",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "codigo_producto",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "cantidad",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clase04/ejercicio26/realizarVenta.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase04",
+						"ejercicio26",
+						"realizarVenta.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

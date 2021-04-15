@@ -48,12 +48,12 @@ Hacer los métodos necesarios en la clase usuario*/
 		 }
 
 
-		static function writeJson($us)
+		static function writeJson($us,$type)
 		{
 			#traer a todos en memoria cuando leo y sobreescribir el archivo con todos
 
 			$row=json_encode($us,JSON_PRETTY_PRINT);
-			if(($file = fopen("productos.json", "w"))!=FALSE)
+			if(($file = fopen("$type.json", "w"))!=FALSE)
 			{
 				fwrite($file, $row);   
 				fclose($file);	
@@ -101,7 +101,6 @@ Hacer los métodos necesarios en la clase usuario*/
 		 	}
 
 		}
-
 
 
 	}

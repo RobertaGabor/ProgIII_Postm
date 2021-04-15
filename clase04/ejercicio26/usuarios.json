@@ -1,0 +1,44 @@
+[
+    {
+        "usuario": "maria",
+        "clave": "1234",
+        "mail": "mar@gmail.com",
+        "id": 1,
+        "fecha": "12\/04\/2021 10:19:00",
+        "foto": {
+            "name": "unnamed.png",
+            "type": "image\/png",
+            "tmp_name": "C:\\xampp\\tmp\\phpA866.tmp",
+            "error": 0,
+            "size": 242773
+        }
+    },
+    {
+        "usuario": "luis",
+        "clave": "abcd",
+        "mail": "lui@gmail.com",
+        "id": 2,
+        "fecha": "12\/04\/2021 11:28:28",
+        "foto": {
+            "name": "download20210102195002.png",
+            "type": "image\/png",
+            "tmp_name": "C:\\xampp\\tmp\\php42C0.tmp",
+            "error": 0,
+            "size": 505716
+        }
+    },
+    {
+        "usuario": "ultimo",
+        "clave": "11111",
+        "mail": "111@gmail",
+        "id": 3,
+        "fecha": "15\/04\/2021 07:56:26",
+        "foto": {
+            "name": "cuidardgatito-t.jpg",
+            "type": "image\/jpeg",
+            "tmp_name": "C:\\xampp\\tmp\\php4D13.tmp",
+            "error": 0,
+            "size": 61110
+        }
+    }
+]

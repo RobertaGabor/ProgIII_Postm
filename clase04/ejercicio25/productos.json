@@ -1,0 +1,26 @@
+[
+    {
+        "codigo": "123456",
+        "precio": "2",
+        "stock": 19,
+        "id": 1,
+        "nombre": "lampara",
+        "tipo": "iluminacion"
+    },
+    {
+        "codigo": "123356",
+        "precio": "4",
+        "stock": "4",
+        "id": 2,
+        "nombre": "mesa",
+        "tipo": "decoracion"
+    },
+    {
+        "codigo": "123156",
+        "precio": "6",
+        "stock": 5,
+        "id": 3,
+        "nombre": "silla",
+        "tipo": "decoracion"
+    }
+]

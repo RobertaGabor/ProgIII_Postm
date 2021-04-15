@@ -1,0 +1,18 @@
+[
+    {
+        "codigo": "123456",
+        "precio": "4",
+        "stock": 0,
+        "id": 1,
+        "nombre": "silla",
+        "tipo": "fea"
+    },
+    {
+        "codigo": "123458",
+        "precio": "8",
+        "stock": 1,
+        "id": 2,
+        "nombre": "mesa",
+        "tipo": "fea"
+    }
+]

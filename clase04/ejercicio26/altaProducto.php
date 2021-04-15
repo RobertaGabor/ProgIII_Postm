@@ -43,7 +43,7 @@ Roberta gabor
 			{
 				$lista=array();#armo un array vacio para agregar
 			}
-			$product=new Producto($code,$price,$stock,$name,$type,$lista);
+			$product=new Producto($code,$price,$stock,$name,$type);
 
 			if($product->getCodigo()!=null)
 			{
@@ -64,7 +64,7 @@ Roberta gabor
 					echo "Ingresado\n";
 				}
 
-				Archivos::writeJson($lista);
+				Archivos::writeJson($lista,"productos");
 			}
 			else
 			{
