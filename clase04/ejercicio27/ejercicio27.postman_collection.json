@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "98ba6343-28e5-42b9-9232-d45a78e17300",
+		"name": "ejercicio27",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ej27",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "Juliana",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Gomez",
+							"type": "text"
+						},
+						{
+							"key": "clave",
+							"value": "13456",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jg@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "localidad",
+							"value": "Burzaco",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clase06/ejercicio27/registro.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase06",
+						"ejercicio27",
+						"registro.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "89b0d367-7fc0-404b-a5b4-234703488820",
+		"name": "ejercicio29",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ej29",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/clase06/ejercicio29/login.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase06",
+						"ejercicio29",
+						"login.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

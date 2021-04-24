@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "57f45076-7137-451e-90a9-f57b76c8c80c",
+		"name": "ejercicio28",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/clase06/ejercicio28/listado.php?listado=usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase06",
+						"ejercicio28",
+						"listado.php"
+					],
+					"query": [
+						{
+							"key": "listado",
+							"value": "usuarios"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ventas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/clase06/ejercicio28/listado.php?listado=usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase06",
+						"ejercicio28",
+						"listado.php"
+					],
+					"query": [
+						{
+							"key": "listado",
+							"value": "usuarios"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/clase06/ejercicio28/listado.php?listado=usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase06",
+						"ejercicio28",
+						"listado.php"
+					],
+					"query": [
+						{
+							"key": "listado",
+							"value": "usuarios"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "51f77196-9f2a-4b54-8717-bb01a1435e39",
+		"name": "ejercicio33",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ej33",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "almohadon",
+							"type": "text"
+						},
+						{
+							"key": "codigo",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "precio",
+							"value": "45",
+							"type": "text"
+						},
+						{
+							"key": "stock",
+							"value": "13",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "suave",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/clase06/ejercicio33/modificacionproducto.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"clase06",
+						"ejercicio33",
+						"modificacionproducto.php"
+					],
+					"query": [
+						{
+							"key": "codigo",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "nombre",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "tipo",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "stock",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "precio",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

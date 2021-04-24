@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "d6bb8767-a606-4bd7-9212-05471a677960",
+		"name": "ejercicio31",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ej31",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
